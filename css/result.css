@@ -1,0 +1,12 @@
+/* 결과 섹션만 영향 */
+#result{
+    display: none;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+.kakao{
+    color: white;
+    background-color: #fee500;
+}

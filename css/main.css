@@ -1,0 +1,7 @@
+/* 메인 섹션에만 영향 */
+#main{
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}

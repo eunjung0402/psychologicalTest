@@ -1,0 +1,12 @@
+/* 전체에 영향 */
+*{
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: pink;
+}
+p{
+    font-size: 20px;
+}
