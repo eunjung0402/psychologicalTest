@@ -41,13 +41,16 @@
                 <img src="./img/main.png" alt="mainImage" class="img-fluid">
             </div>
             <p>나만의 MBTI 사이트 입니다~!<br>아래 시작하기 버튼을 눌러 시작해 주십시오</p>
-            <button class="btn btn-outline-danger mt-2" onclick="begin()">시작하기</button>
+            <div class="d-grid gap-2">
+                <button class="btn btn-default mt-2 text-white" onclick="begin()">시작하기</button>
+            </div>
         </section>
         <section id="qna">
+            <h2 class="sr-only">심리테스트 질문</h2>
             <div class="status mx-auto mt-5">
                 <div class="statusBar"></div>
             </div>
-            <div class="qBox my-5 py-3 mx-auto"></div>
+            <div class="qBox my-5 py-3 mx-auto px-3"></div>
             <div class="answerBox"></div>
         </section>
         <section id="result"  class="mx-auto my-5 py-5 px-3">
@@ -57,7 +60,9 @@
 
             </div>
             <div class="resultDesc"></div>
-            <button class="btn btn-outline-danger mt-3 kakao" onclick="setShare()">카카오톡 공유하기</button>
+            <div class="d-grid gap-2">
+                <button class="btn mt-3 kakao" onclick="setShare()">카카오톡 공유하기</button>
+            </div>
         </section>
     </div>
     <script src="./js/newData.js"></script>

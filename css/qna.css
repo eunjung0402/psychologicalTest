@@ -3,11 +3,12 @@
     display: none;
 }
 .qBox{
-    background-color: whitesmoke;
+    background-color: #e47e8d;
     text-align: center;
     border-radius: 20px;
     font-size: 22px;
     width: 80%;
+    color: #fff;
 }
 .answerList{
     background-color: whitesmoke;
@@ -16,6 +17,7 @@
     width: 100%;
     border: 0px;
     width: 80%;
+    color: inherit;
 }
 .answerList:hover, .answerList:focus{
     background-color: pink;

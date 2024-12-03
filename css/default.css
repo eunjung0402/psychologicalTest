@@ -10,3 +10,6 @@ body{
 p{
     font-size: 20px;
 }
+.btn-default{
+    background-color: #e47e8d;
+}
